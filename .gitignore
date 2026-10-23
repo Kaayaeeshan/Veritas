@@ -1,0 +1,37 @@
+# Python virtual environment
+backend/venv/
+backend/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Frontend dependencies
+frontend/node_modules/
+
+# Environment variables
+backend/.env
+frontend/.env.local
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Firebase private service-account credentials
+backend/firebase-service-account.json
+
+# Frontend build output
+frontend/dist/
+frontend/.vite/
+
+# Logs
+*.log
+
+# Editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
