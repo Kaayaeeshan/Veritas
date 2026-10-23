@@ -1,0 +1,32 @@
+{
+  "train_accuracy": 0.8079363480713063,
+  "train_precision": 0.7990912682734097,
+  "train_recall": 0.8196555217831814,
+  "train_f1": 0.8092427728318495,
+  "train_roc_auc": 0.8897390546467311,
+  "accuracy": 0.6830447039871124,
+  "precision": 0.6884735202492211,
+  "recall": 0.6955153422501967,
+  "f1": 0.6919765166340509,
+  "roc_auc": 0.7547622386156789,
+  "confusion_matrix": [
+    [
+      812,
+      400
+    ],
+    [
+      387,
+      884
+    ]
+  ],
+  "cv_f1": 0.6804042417510839,
+  "best_params": {
+    "clf__C": "1.0",
+    "tfidf__max_features": "8000",
+    "tfidf__ngram_range": "(1, 2)"
+  },
+  "n_train": 9929,
+  "n_test": 2483,
+  "model_type": "Logistic Regression, text-only (TF-IDF on reviewContent) \u2014 genuine winner of a fair 7-way text-only comparison",
+  "dataset": "real Yelp reviews (9,929 train / 2,483 test)"
+}

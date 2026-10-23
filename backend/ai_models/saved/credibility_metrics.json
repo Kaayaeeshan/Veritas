@@ -1,0 +1,10 @@
+{
+  "model_type": "Tuned Neural Network (MLP)",
+  "dataset": "real RateMDs reviews",
+  "train_mae": 2.585336469672404,
+  "train_r2": 0.7086796001844908,
+  "test_mae": 2.4688982844347285,
+  "test_r2": 0.7121700753205924,
+  "n_train": 3642,
+  "n_test": 911
+}

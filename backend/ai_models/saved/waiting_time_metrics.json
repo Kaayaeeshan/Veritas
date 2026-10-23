@@ -1,0 +1,20 @@
+{
+  "model_type": "Neural network (MLPRegressor)",
+  "dataset": "real clinic appointments (86,032 attended visits)",
+  "cv_folds": 5,
+  "cv_mae": 14.176550097339549,
+  "train_mae": 14.009889196781929,
+  "train_r2": 0.7991393214384027,
+  "test_mae": 14.130684803889974,
+  "test_r2": 0.7982667367586808,
+  "best_params": {
+    "mlp__hidden_layer_sizes": [
+      64,
+      32
+    ],
+    "mlp__alpha": 0.0001,
+    "mlp__learning_rate_init": 0.001
+  },
+  "n_train": 68825,
+  "n_test": 17207
+}
